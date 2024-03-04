@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+      
+    <title>GAME-RSP</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-box">
+            <div class="header">
+                <h3>Rock</h3>
+                <h3>PAPER</h3>
+                <h3>SCISSORS</h3>
+            </div>
+            <div class="score">
+                <div class="cs">
+                    COMPUTER SCORE <br>
+                    <span>0</span>
+
+                </div>
+                <div class="ys">
+                    YOUR SCORE <br>
+                    <span>0</span>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="name-display">
+            <p class="you-pick">You Picked</p>
+            <p class="pc-pick">Pc Picked</p>
+        </div>
+        <div class="middle">
+            <div class="triangle">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <div class="img">
+                        <img src="img/rock.png" alt="rock">
+                    </div>
+                </div>
+                <div class="choice" id="scissor">
+                    <div class="img">
+                        <img src="img/scissor.png" alt="scissor">
+                    </div>
+                </div>
+                <div class="choice" id="paper">
+                    <div class="img">
+                        <img src="img/paper.png" alt="paper">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="rule-box">
+                <div class="close">
+                    <button class="close-btn" type="button">&#x2715;</button>
+                </div>
+                <div class="rule">
+                    <h1>Game Rules</h1>
+                    <ul>
+                        <li><span>Rock beats scissors, scissors beat <br> paper,and paper beat rock.</span></li>
+                        <li><span> Agree ahead oftime whether you'll <br> count of "rock, paper, scissors,<br> shoot" or
+                                just "rock, paper, scissors."</span></li>
+                        <li><span> Use rock, paper, scissors to settle <br> minor decisions or simply play to <br> pass
+                                the time</span></li>
+                        <li><span> If both players lay down the same <br> hand, each player lays down another <br>
+                                hand</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="rules-btn">
+                <button class="btn" type="button">RULES</button>
+            </div>
+            <div class="next-btn">
+                <button class="next" type="button">NEXT</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <script src="game.js"></script>
+</body>
+
+</html>
